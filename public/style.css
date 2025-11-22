@@ -1,0 +1,102 @@
+/* -------- GLOBAL -------- */
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Inter", sans-serif;
+  background: #1b263b;           /* NAVY BLUE */
+  color: white;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: #e0e6ed;
+}
+
+/* -------- HABIT CARD -------- */
+.habit-card {
+  background: #ffffff;
+  color: #1b263b;
+  padding: 20px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  border-left: 6px solid #1f6feb;   /* BLUE ACCENT */
+}
+
+.habit-name {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.habit-info {
+  font-size: 14px;
+  margin-bottom: 14px;
+  color: #3a4750;
+}
+
+/* -------- RECOMMEND BOX -------- */
+.recommend-box {
+  background: #f1f7ff;
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+  border-left: 4px solid #1f6feb;
+  font-size: 14px;
+  color: #1b263b;
+}
+
+/* -------- BUTTONS -------- */
+button {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.done-btn {
+  background: #1f6feb;
+  color: white;
+}
+.done-btn:hover {
+  background: #155cc0;
+}
+
+.freeze-btn {
+  background: #ff9800;
+  color: white;
+}
+.freeze-btn:hover {
+  background: #e38900;
+}
+
+.health-btn {
+  background: #16a085;
+  color: white;
+}
+.health-btn:hover {
+  background: #0f7a63;
+}
+
+/* -------- RESPONSIVE -------- */
+@media (max-width: 480px) {
+  button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+
+
